@@ -20,7 +20,7 @@ export default function Nav() {
     <nav className="nav" aria-label="Main navigation">
       <div className="nav-inner">
         <div className="logo" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
-          <img src="/assets/logo.png" alt="Inflexion, where trajectories bend" style={{ height: 42, width: 'auto', display: 'block' }} />
+          <img src="logo.png" alt="Inflexion, where trajectories bend" style={{ height: 42, width: 'auto', display: 'block' }} />
         </div>
         <div className="nav-links">
           {links.map(([h, k]) => (

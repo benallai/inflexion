@@ -46,7 +46,7 @@ export default function Footer() {
         <div className="wrap">
           <div className="foot-grid">
             <div>
-              <div className="logo"><img src="/assets/logo.png" alt="Inflexion" style={{ height: 34, width: 'auto', display: 'block' }} /></div>
+              <div className="logo"><img src="logo.png" alt="Inflexion" style={{ height: 34, width: 'auto', display: 'block' }} /></div>
               <p style={{ marginTop: 14, maxWidth: 280 }}>{t('ft_p')}</p>
             </div>
             <div><h5>{t('ft_learn')}</h5><Link to="/method">{t('ft_l1')}</Link><Link to="/frameworks">{t('ft_l2')}</Link><Link to="/situations">{t('ft_l3')}</Link><Link to="/glossary">{t('ft_l4')}</Link></div>
